@@ -21,7 +21,8 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173", 
         "http://localhost:3000",
-        "https://frontend-apple-scan-react.vercel.app"
+        "https://frontend-apple-scan-react.vercel.app",
+        "https://apple-scan-react.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
